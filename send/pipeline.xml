@@ -1,0 +1,8 @@
+<structure name="pipeline">
+    <structure name="input">
+        <field comment="Formatted as E.164" maxOccurs="unbounded" name="to" type="java.lang.String"/>
+        <field name="message" type="java.lang.String"/>
+        <field comment="Correlate this message to something" minOccurs="0" name="correlationId" type="java.lang.String"/>
+    </structure>
+    <structure name="output"/>
+</structure>
